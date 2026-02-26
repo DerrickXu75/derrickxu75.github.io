@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "skills": {
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1772018762799
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1772018883151
+    },
+    "nano-banana-pro": {
+      "version": "1.0.1",
+      "installedAt": 1772018890883
+    },
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1772018961160
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1772019366899
+    },
+    "humanizer": {
+      "version": "1.0.0",
+      "installedAt": 1772019492393
+    },
+    "self-improving-agent": {
+      "version": "1.0.11",
+      "installedAt": 1772019546830
+    },
+    "proactive-agent": {
+      "version": "3.1.0",
+      "installedAt": 1772019605930
+    },
+    "ecommerce": {
+      "version": "1.0.0",
+      "installedAt": 1772035623050
+    },
+    "shopify-admin-api": {
+      "version": "1.0.0",
+      "installedAt": 1772035744894
+    },
+    "brainstorming": {
+      "version": "0.1.0",
+      "installedAt": 1772070161279
+    },
+    "tavily-search": {
+      "version": "1.0.0",
+      "installedAt": 1772070363201
+    },
+    "copywriting": {
+      "version": "0.1.0",
+      "installedAt": 1772070456106
+    },
+    "google-ads-api": {
+      "version": "1.0.5",
+      "installedAt": 1772070544799
+    },
+    "meta-ads-manager": {
+      "version": "1.0.0",
+      "installedAt": 1772070599763
+    },
+    "content-generation": {
+      "version": "1.0.0",
+      "installedAt": 1772070657313
+    },
+    "market-research": {
+      "version": "1.0.0",
+      "installedAt": 1772070705417
+    },
+    "competitor-analysis": {
+      "version": "2.0.0",
+      "installedAt": 1772070734678
+    },
+    "automation-workflows": {
+      "version": "0.1.0",
+      "installedAt": 1772070813122
+    },
+    "google-ads": {
+      "version": "1.1.0",
+      "installedAt": 1772070888664
+    },
+    "instagram-marketing": {
+      "version": "1.0.0",
+      "installedAt": 1772070916834
+    },
+    "openclaw-social-scheduler": {
+      "version": "0.1.0",
+      "installedAt": 1772070949935
+    },
+    "seo-competitor-analysis": {
+      "version": "1.0.0",
+      "installedAt": 1772070988938
+    },
+    "data-analyst": {
+      "version": "1.0.0",
+      "installedAt": 1772071009073
+    },
+    "memory-hygiene": {
+      "version": "1.0.0",
+      "installedAt": 1772071177484
+    },
+    "elite-longterm-memory": {
+      "version": "1.2.3",
+      "installedAt": 1772071180745
+    },
+    "recursive-self-improvement": {
+      "version": "1.0.0",
+      "installedAt": 1772071189762
+    },
+    "adaptive-reasoning": {
+      "version": "1.0.0",
+      "installedAt": 1772071199955
+    },
+    "planning-with-files": {
+      "version": "1.2.0",
+      "installedAt": 1772071243271
+    },
+    "task-system": {
+      "version": "1.0.1",
+      "installedAt": 1772071254130
+    },
+    "agent-team-orchestration": {
+      "version": "1.0.0",
+      "installedAt": 1772071263443
+    },
+    "context-budgeting": {
+      "version": "1.0.0",
+      "installedAt": 1772071273816
+    },
+    "knowledge-graph": {
+      "version": "1.0.0",
+      "installedAt": 1772071318726
+    },
+    "feishu-docx-powerwrite": {
+      "version": "0.1.0",
+      "installedAt": 1772098025464
+    },
+    "nano-pdf": {
+      "version": "1.0.0",
+      "installedAt": 1772108049537
+    },
+    "gifgrep": {
+      "version": "1.0.1",
+      "installedAt": 1772108172102
+    },
+    "image-generation": {
+      "version": "1.0.2",
+      "installedAt": 1772108540008
+    }
+  }
+}
