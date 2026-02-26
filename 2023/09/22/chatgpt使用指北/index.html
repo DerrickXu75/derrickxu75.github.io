@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="Keep Team">
+    
+    <title>
+        
+            经济学ChatGPT使用指北 |
+        
+        Keep Theme
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/images/logo.svg">
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"derrickxu75.github.io","root":"/","language":"en","path":"search.json"}
+    KEEP.theme_config = {"toc":{"enable":false,"number":false,"expand_all":false,"init_open":false},"style":{"primary_color":"#0066cc","logo":"/images/logo.svg","favicon":"/images/logo.svg","avatar":"/images/avatar.svg","font_size":null,"font_family":null,"hover":{"shadow":false,"scale":false},"first_screen":{"enable":false,"header_transparent":false,"background_img":"/images/bg.svg","description":"Keep writing and Keep loving.","font_color":null,"hitokoto":false},"scroll":{"progress_bar":false,"percent":false}},"local_search":{"enable":false,"preload":false},"code_copy":{},"code_block":{"tools":{"enable":false,"style":"default"},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":false},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.8"},"waline":{"server_url":null,"reaction":false,"version":2}},"post":{"author_label":{"enable":true,"auto":true,"custom_label_list":["Trainee","Engineer","Architect"]},"word_count":{"enable":false,"wordcount":false,"min2read":false},"img_align":"left","copyright_info":false},"version":"3.6.1"}
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
+    KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original article title","author":"Original article author","link":"Original article link"}
+  </script>
+<meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/logo.svg">
+                </a>
+            
+            <a class="logo-title" href="/">
+               Keep Theme
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                HOME
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                ARCHIVES
+                            </a>
+                        </li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">HOME</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">ARCHIVES</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">经济学ChatGPT使用指北</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/avatar.svg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">Keep Team</span>
+                            
+                                <span class="author-label">Lv2</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2023-09-22 18:11:23</span>
+        <span class="mobile">2023-09-22 18:11</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2023-09-27 14:58:03</span>
+    </span>
+    
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E6%9D%82%E8%B0%88/">杂谈</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <blockquote>
+<p>一年来我高强度使用 ChatGPT 作为我的日常学术工具。我惊讶于他为学术带来的高效，也遗憾于在审查，开源环境单薄等各种因素的限制下大部分人对他的了解仅仅停留于了解。ChatGPT 并没有成为大多数经济研究生甚至老师的工具箱中的一环。本篇整合了一些大佬以及我日常使用的方法，希望对奋斗在学术的 junior 节省一些宝贵的时间。</p>
+</blockquote>
+<hr>
+<h2 id="Prompt-Engineering"><a href="#Prompt-Engineering" class="headerlink" title="Prompt Engineering"></a>Prompt Engineering</h2><p>Prompt Engineering 旨在开发和优化提示以有效地利用语言模型 (LMs) 进行各种应用和研究主题。Prompt 是科学利用 chatgpt 的第一步，也是我学习 <code>ChatGPT</code> 的开始。我的经验是尽量给他必要的 <code>content</code> 而不是直接问他问题的答案。但这也与前沿的 <code>ChatGPT</code> 使用姿势相去甚远。</p>
+<p>一个简单的方法是在写 prompt 时谨记 CLAR 原则和 LACES 问题模型，这两个方法可以帮助您构建高质量的提问 prompts，提高与 AI 交互的效率和效果。</p>
+<h3 id="CLAR-原则"><a href="#CLAR-原则" class="headerlink" title="CLAR 原则"></a>CLAR 原则</h3><p>CLAR 原则是一个用于指导您撰写 prompts 的简单原则，其中每个字母代表一个关键方面：</p>
+<ul>
+<li>Clear（明确）：确保问题或指令表述清晰明了，避免使用模糊或不确定的词汇。</li>
+<li>Logical（合乎逻辑）：让问题或指令符合逻辑，便于 AI 理解和回答。</li>
+<li>Accurate（准确）：使用准确的术语和信息，提高 AI 生成的答案质量。</li>
+<li>Relevant（相关）：确保问题或指令与所需结果密切相关，避免无关内容。</li>
+</ul>
+<h3 id="LACES-问题模型"><a href="#LACES-问题模型" class="headerlink" title="LACES 问题模型"></a>LACES 问题模型</h3><p>LACES 问题模型是一个更具体的提问 prompts 构建方法。它包括以下五个要素：</p>
+<ul>
+<li>Limitation（限定条件）：为问题或指令增加限定条件，有助于获得更具针对性的答案。</li>
+<li>Assignment（分配角色）：在指令中为 AI 分配角色，帮助 AI 更好地理解预期的回答。</li>
+<li>Context（背景或上下文）：提供问题或指令的背景信息，有助于 AI 更好地理解问题。</li>
+<li>Example（示例）：为指令提供示例，以便 AI 能够参考并生成类似的答案。</li>
+<li>Step by Step（拆分任务）：将问题或指令拆分为较小的部分，使 AI 更容易处理。</li>
+</ul>
+<h2 id="Prompt-开源项目"><a href="#Prompt-开源项目" class="headerlink" title="Prompt 开源项目"></a>Prompt 开源项目</h2><p>不得不承认，自己写 prompt 有时还是低效的，不如直接看看开源的其他人的使用方法，下面是一些可能有帮助的答案：</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api"><strong>Best practices for prompt engineering with OpenAI API</strong></a> 该文档是 OpenAI 自己发布的有关 prompt 的最佳实践，给出了一些比较使用的使用例子。但是时间较为久远，站在 2023.9 来看并不再令人惊讶。</li>
+<li>Github 上有一系列有趣的 prompt 开源项目，我选取了一些高 star 和中文社区实践典范。</li>
+</ol>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>abstract</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="link" target="_blank" rel="noopener" href="https://github.com/AIzhibei/chatgpt-prompts-wiki-zh">github chatgpt-prompts-wiki-zh<i class="fas fa-external-link-alt"></i></a></td>
+<td>包含最全的中文环境 prompt，更倾向于学术</td>
+</tr>
+<tr>
+<td><a class="link" target="_blank" rel="noopener" href="https://github.com/PlexPt/awesome-chatgpt-prompts-zh">github awesome-chatgpt-prompts-zh<i class="fas fa-external-link-alt"></i></a></td>
+<td>包含最全的中文环境 prompt</td>
+</tr>
+<tr>
+<td><a class="link" target="_blank" rel="noopener" href="https://github.com/ahmetbersoz/chatgpt-prompts-for-academic-writing">github chatgpt-prompts-for-academic-writing<i class="fas fa-external-link-alt"></i></a></td>
+<td>提供了一系列学术写作的 prompt</td>
+</tr>
+<tr>
+<td><a class="link" target="_blank" rel="noopener" href="https://github.com/wangxuqi/Prompt-Engineering-Guide-Chinese">github Prompt-Engineering-Guide-Chinese<i class="fas fa-external-link-alt"></i></a></td>
+<td>包含所有与 Prompt 工程相关的最新论文、学习指南、讲座、参考资料和工具</td>
+</tr>
+<tr>
+<td><a class="link" target="_blank" rel="noopener" href="https://github.com/binary-husky/gpt_academic">https://github.com/binary-husky/gpt_academic<i class="fas fa-external-link-alt"></i></a></td>
+<td>专门用于学术的 ChatGPT 前端，支持多种大语言模型混合调用</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol>
+<li>AI 领域的绝对大神吴恩达和 openai 的特征工程师的教程可能是有帮助的，可以在 b 站观看这个免费视频。<a class="link" target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Z14y1Z7LJ/?share_source=copy_web&amp;vd_source=ec18e466006be740c52c036b6e803c87">【ChatGPT 提示工程师&amp;AI 大神吴恩达教你写提示词｜ prompt engineering【完整中字九集全】<i class="fas fa-external-link-alt"></i></a></li>
+<li>现在流行起来了一种通过 chatgpt 自己生成合适的 Prompt 的新方法，这种技术被称为 <code>Prompt 逆向工程</code>。这是一个 <a class="link" target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/617524191">简单的实践<i class="fas fa-external-link-alt"></i></a>，更多的可以 follow 最新的论文及开源项目。</li>
+</ol>
+<h2 id="我的-Prompt"><a href="#我的-Prompt" class="headerlink" title="我的 Prompt"></a>我的 Prompt</h2><h3 id="IMPROVING-LANGUAGE"><a href="#IMPROVING-LANGUAGE" class="headerlink" title="IMPROVING LANGUAGE"></a>IMPROVING LANGUAGE</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Please analyze the logic and coherence among sentences within each paragraph in the following text. Identify any areas where the flow or connections between sentences could be improved,and provide specific suggestians to enhance the overall quality and readability to the content, Please only provide the text after improving and then give a list of the improvemments in English, Please improve the following text:</span><br></pre></td></tr></table></figure>
+<h3 id="TRANSLATE"><a href="#TRANSLATE" class="headerlink" title="TRANSLATE"></a>TRANSLATE</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我想让你充当英语翻译员、拼写纠正员和改进员。我会用任何语言与你交谈，你会检测语言，翻译它并用我的文本的更正和改进版本用英语回答。我希望你用更优美优雅的高级英语单词和句子替换我简化的 A0 级单词和句子。保持相同的意思，但使它们更符合学术规范。我要你只回复更正、改进，不要写任何解释。我的第一句话是“istanbulu cok seviyom burada olmak cok guzel”</span><br></pre></td></tr></table></figure>
+<h3 id="PYTHON"><a href="#PYTHON" class="headerlink" title="PYTHON"></a>PYTHON</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我想让你在学校担任讲师，向初学者教授算法。您将使用 Python 编程语言提供代码示例。首先简单介绍一下什么是算法，然后继续给出简单的例子，包括冒泡排序和快速排序。稍后，等待我提示其他问题。一旦您解释并提供代码示例，我希望您尽可能将相应的可视化作为 ascii 艺术包括在内。</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我想让你充当 stackoverflow 的帖子。我会问与 Python 编程相关的问题，你会回答应该是什么答案。我希望你只回答给定的答案，并在不够详细的时候写解释。不要写解释。当我需要用英语告诉你一些事情时，我会把文字放在大括号内{like this}。我的第一个问题是“如何将 http.Request 的主体读取到 Python 中的字符串”</span><br></pre></td></tr></table></figure>
+<h3 id="REGULAR-EXPRESSION"><a href="#REGULAR-EXPRESSION" class="headerlink" title="REGULAR EXPRESSION"></a>REGULAR EXPRESSION</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我希望你充当正则表达式生成器。您的角色是生成匹配文本中特定模式的正则表达式。您应该以一种可以轻松复制并粘贴到支持正则表达式的文本编辑器或编程语言中的格式提供正则表达式。不要写正则表达式如何工作的解释或例子；只需提供正则表达式本身。我的第一个提示是生成一个匹配电子邮件地址的正则表达式。</span><br></pre></td></tr></table></figure>
+<h2 id="ChatGPT-in-Econ"><a href="#ChatGPT-in-Econ" class="headerlink" title="ChatGPT in Econ"></a>ChatGPT in Econ</h2><p>关于ChatGPT的经济学研究正在不断增加，这里面包括由发展经济学家领衔的RCT团队，也包括把<a class="link" target="_blank" rel="noopener" href="https://www.nber.org/papers/w31222">ChatGPT出台作为事件冲击<i class="fas fa-external-link-alt"></i></a>的<code>reg monkey</code> 。大体来看，真正有意思的还是<a class="link" target="_blank" rel="noopener" href="https://www.nber.org/papers/w31627">ChatGPT带来的生产力对劳动市场的长短期影响<i class="fas fa-external-link-alt"></i></a>。</p>
+<p>关于经济学中ChatGPT的运用大致可以看这三篇Notes，给出了一些经济学家使用ChatGPT的新姿势。</p>
+<ul>
+<li><p><a class="link" target="_blank" rel="noopener" href="https://economics.princeton.edu/wp-content/uploads/2023/05/A_User_s_Guide_to_GPT_and_LLMs_for_Economic_Research.pdf">A_User_s_Guide_to_GPT_and_LLMs_for_Economic_Research.pdf<i class="fas fa-external-link-alt"></i></a></p>
+</li>
+<li><p><a class="link" target="_blank" rel="noopener" href="https://www.nber.org/papers/w31679">Generation Next: Experimentation with AI<i class="fas fa-external-link-alt"></i></a></p>
+</li>
+<li><a class="link" target="_blank" rel="noopener" href="https://www.nber.org/papers/w30957">NBER Language Models and Cognitive Automation for Economic Research<i class="fas fa-external-link-alt"></i></a></li>
+</ul>
+<p>熊伟老师从<a class="link" target="_blank" rel="noopener" href="https://www.nber.org/papers/w31250">数据隐私<i class="fas fa-external-link-alt"></i></a>角度谈AI和大数据是一个特别好的角度切入ChatGPT，除此而外还有ACEMOGLU最新出版的<a class="link" target="_blank" rel="noopener" href="https://shapingwork.mit.edu/power-and-progress/">新书<i class="fas fa-external-link-alt"></i></a>从科技与权力看ChatGPT也是一个新的视角。</p>
+<h2 id="其他工具"><a href="#其他工具" class="headerlink" title="其他工具"></a>其他工具</h2><ul>
+<li>如果你想用chatgpt帮助你阅读PDF文档的话，最佳工具是<a class="link" target="_blank" rel="noopener" href="https://www.chatpdf.com/">ChatPDF<i class="fas fa-external-link-alt"></i></a>，有人曾经用它做一些literature review工作，效果还很惊艳。但是我仍不建议你这么做，<a class="link" target="_blank" rel="noopener" href="http://www.xutianyang.com/2023/09/22/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E9%87%91%E8%9E%8D%E6%96%87%E7%8C%AE/">正确阅读文献的姿势<i class="fas fa-external-link-alt"></i></a>应该不包含囫囵吞枣</li>
+<li>在碎片化阅读时代，一个可以汇总不同网站信息流，并给出略读与收藏的工具可能是重要的。我找到的最佳工具是<a class="link" target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/633324001">会读<i class="fas fa-external-link-alt"></i></a>。它目前仍在内测阶段，如果有兴趣可以尝试（但是需要付费。。。）市面上还有其他好多工具，我没有一一测试。</li>
+<li>如果需要用大语言模型做一些“重活”，比如打标，本地知识库，会议纪要整理等等偏开发端的运用。不妨试试一些开源的大语言模型，ChatGLM，LLaMa-2，GPT4All。他们在本地环境下可以更好finetune，更重要的是他们完全免费。</li>
+<li>Claude2，百度文心一言是免费的，如果可以也可以尝试他们——尽管百度的效果真的不尽人意。</li>
+</ul>
+
+            </div>
+
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E6%9D%82%E8%B0%88/">#杂谈</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2023/09/23/%E5%9F%BA%E9%87%91%E7%A0%94%E7%A9%B6%E9%98%85%E8%AF%BBlist/"
+                            >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="title flex-center">
+                                <span class="post-nav-title-item">基金研究阅读list</span>
+                                <span class="post-nav-item">Prev posts</span>
+                            </span>
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2023/09/21/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E9%87%91%E8%9E%8D%E6%96%87%E7%8C%AE/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">如何阅读经济或金融文献</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2020</span> -
+            
+            2026
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">Keep Team</a>
+            
+        </div>
+        
+        <div class="theme-info info-item">
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.6.1</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+
+
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/js/post-helper.js"></script>
+
+        
+        
+    
+</div>
+
+
+
+</body>
+</html>
